@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaycravings
+
+    </title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: rgb(250, 219, 219);
+            color: rgb(0, 0, 0);
+            line-height: 1.6;
+        }
+
+        header {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: pink;
+            color: black(255, 255, 255);
+            padding: 30px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 3rem;
+            letter-spacing: 2px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.2rem;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav ul li a:hover {
+            color: pink;
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        #home {
+            background-color: pink;
+            color: white;
+            padding: 100px 20px;
+        }
+
+        #home h2 {
+            font-size: 3rem;
+            margin-bottom: 0px;
+        }
+
+        .menu-item {
+            display: inline-block;
+            width: 300px;
+            margin: 30px;
+            padding: 20px;
+            background-color: transparent;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .menu-item2 {
+            display: inline-block;
+            width: 300px;
+            margin: 30px;
+            padding: 20px;
+            background-color: transparent;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+            border-radius: 30px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            
+
+        }
+
+       
+
+        .menu-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        .menu-item2 img {
+            width: 100%;
+            height: 255px;
+            object-fit: ;
+            border-radius: 200px;
+            transition: opacity 0.3s ease-in-out;
+            transform: scale(1.1);
+        }
+
+        .menu-item img:hover {
+            opacity: 0.8;
+        }
+
+        .menu-item h3 {
+            margin-top: 20px;
+            font-size: 1.8rem;
+            color: black;
+        }
+
+        .menu-item p {
+            color: black;
+            font-size: 1rem;
+            margin-top: 10px;
+        }
+
+        #about {
+            background-color: pink;
+        }
+
+        footer {
+            background-color: rgb(214, 208, 208);
+            color: black(226, 203, 203);
+            padding: 20px 0;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+        }
+
+        footer a:hover {
+            color: rgb(75, 75, 75);
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            font-size: 1.2rem;
+        }
+
+        #contact-info {
+            background-color: pink;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+        }
+
+        .contact-info2 {
+            margin-top: 20px;
+            font-size: 1.2rem;
+        }
+
+        .contact-info2 p {
+            margin: 10px 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            .menu-item {
+                width: 80%;
+                margin: 20px auto;
+            }
+
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            #home h2 {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>WELCOME</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#Policies">Policies</a></li>
+            <li><a href="#Payment">Payment</a></li>
+            <li><a href="#Pick Up">Pick Up / Deliveries</li>
+            <li><a href="#Contact Me">Contact Me</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="menu-item2">
+    
+    <div class="menu-item2">
+        <img src="483479333_1656013528366644_536802019522248578_n.jpg" alt="Dish 1">
+        
+</section>
+
+<section id="menu">
+    <h2>Menu</h2>
+    <div class="menu-item">
+        <img src="chocolate.jpg" alt="Dish 1">
+        <h3>Red Velvet</h3>
+        <p>Description</p>
+    </div>
+    <div class="menu-item">
+        <img src="vanilla.png" alt="Dish 2">
+        <h3>Chocolate</h3>
+        <p>Description</p>
+    </div>
+    <div class="menu-item">
+        <img src="red velvet.png" alt="Dish 3">
+        <h3>Cookies and Cream</h3>
+        <p>Description</p>
+    </div>
+    <div class="menu-item">
+        <img src="red velvet.png" alt="Dish 3">
+        <h3>Strawberry</h3>
+        <p>Description</p>
+    </div>
+   
+</section>
+
+<section id="Policies">
+    <h2>Policies</h2>
+    <p>Always communicate if youre running late to pick up an order</p>
+    <p>Large orders must be placed a week in advanced</p>
+    <p>No deposit for large batches = No order</p>
+</section>
+
+<section id="Payment">
+    <h2>Payment </h2>
+    <div class="contact-info">
+        <p>Cash - Apple Pay - Cash App</p>
+        <p>Coins are not accepted</p>
+        <p>Deposits go towards your order</p>
+    </div>
+</section>
+<section id="Pick Up">
+    <h2>Pick Up / Deliveries</h2>
+    <div class="contact-info">
+        <p>Picking up orders at school have to be in the mornings unless I have a class with you</p>
+        <p>When picking up orders, make sure to be on time</p>
+
+<section id="Contact Me">
+    <h2>Contact Me</h2>
+    <div class="contact-info">
+        <p></p>
+        <p>Phone: (404) 437-4668</p>
+    </div>
+    <div class="menu-item">
+        
+        <a href="https://www.instagram.com/kays.cravingss/" target="_blank">
+            <img src="kays.cravingss_qr.png" alt="Kay's Cravings Instagram" 
+                 style="width: 150px; height: auto; cursor: pointer; border-radius: 10px;">
+        </a>
+
+       
+    </div>
+        
+    </div>
+
+</section>
+
+<footer>
+    <p>&copy; E | All Rights Reserved</p>
+  
+</footer>
+
+</body>
+</html><p>Thank you for visiting my Website! Have a good day.</p>
